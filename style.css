@@ -193,9 +193,10 @@ h2 {
 }
 
 .app-screenshot {
-    width: 100%;
-    max-width: 520px;
-    display: block;
+  width: 100%;
+  max-width: 560px;
+  display: block;
+  border-radius: 34px;
 }
 
 .create-button {
