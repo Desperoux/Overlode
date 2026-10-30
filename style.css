@@ -1127,7 +1127,8 @@ main > section {
   line-height: 1.7;
 }
 
-.legal ul {
+.legal ul,
+.legal ol {
   padding-left: 20px;
 }
 
