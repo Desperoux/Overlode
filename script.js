@@ -88,6 +88,8 @@
       show(0);
       new IntersectionObserver(([entry]) => (entry.isIntersecting ? play() : pause()), { threshold: 0.3 }).observe(stack);
     };
+    // Place the pin straight away, then again once the web font has loaded and sizes settle.
+    setPin(states[0].pin);
     (document.fonts ? document.fonts.ready : Promise.resolve()).then(start);
     window.addEventListener("resize", () => setPin(states[step].pin));
   }
