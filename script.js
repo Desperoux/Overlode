@@ -1,6 +1,8 @@
 // Overlode website: hero stack, step line, the progression demo, the scanner demo and the FAQ.
 (() => {
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  // The entrance animation takes about 1.4s; after that, make sure nothing is left hidden.
+  setTimeout(() => document.documentElement.classList.add("motion-done"), 2000);
 
   /* ---------- Nav ---------- */
   const nav = document.querySelector("[data-nav]");
