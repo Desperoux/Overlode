@@ -16,7 +16,11 @@ While you are signed in, your sessions, workouts, bodyweight entries, gym profil
 
 Overlode Pro
 
-If your account has Overlode Pro, a record saying so is stored with your account in Firebase. The app can read it but cannot change it.
+Overlode Pro is a subscription bought through Google Play. Google Play handles payment, and Overlode never sees your card or payment details. Purchases are verified and managed by RevenueCat, which receives your Overlode account ID, your purchase details (product, price, dates and status) and basic device and app information, so Pro can be unlocked on every phone you sign in to. RevenueCat processes this on Overlode's behalf (https://www.revenuecat.com/privacy).
+
+If your account has Overlode Pro, a record saying so may also be stored with your account in Firebase. The app can read it but cannot change it.
+
+You can cancel a subscription at any time in Google Play under Payments & subscriptions.
 
 Camera and photos
 
@@ -28,7 +32,7 @@ Overlode uses Firebase Crashlytics to send crash reports and Firebase Analytics 
 
 What Overlode does not do
 
-Overlode does not show advertising, does not sell your data, and does not share it with anyone except the Google Firebase services described above, which process it on Overlode's behalf.
+Overlode does not show advertising, does not sell your data, and does not share it with anyone except the Google Firebase services and RevenueCat described above, which process it on Overlode's behalf.
 
 Deleting your data
 
