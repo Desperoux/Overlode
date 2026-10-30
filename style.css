@@ -1025,6 +1025,10 @@ main > section {
   font-size: 19px;
 }
 
+.get-button {
+  margin-top: 28px;
+}
+
 /* ---------- Footer ---------- */
 
 .footer {
