@@ -1247,3 +1247,16 @@ main > section {
     transition-duration: 0.01ms !important;
   }
 }
+
+.soon-tag {
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(157, 255, 87, 0.45);
+  color: var(--lime);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}

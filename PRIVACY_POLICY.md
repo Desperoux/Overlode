@@ -16,7 +16,7 @@ While you are signed in, your sessions, workouts, bodyweight entries, gym profil
 
 Overlode Pro
 
-Overlode Pro is a subscription bought through Google Play. Google Play handles payment, and Overlode never sees your card or payment details. Purchases are verified and managed by RevenueCat, which receives your Overlode account ID, your purchase details (product, price, dates and status) and basic device and app information, so Pro can be unlocked on every phone you sign in to. RevenueCat processes this on Overlode's behalf (https://www.revenuecat.com/privacy).
+Overlode Pro is not on sale yet. When it is, it will be a subscription bought through Google Play. Google Play will handle payment, and Overlode never sees your card or payment details. Purchases will be verified and managed by RevenueCat, which will receive your Overlode account ID, your purchase details (product, price, dates and status) and basic device and app information, so Pro can be unlocked on every phone you sign in to. RevenueCat will process this on Overlode's behalf (https://www.revenuecat.com/privacy).
 
 If your account has Overlode Pro, a record saying so may also be stored with your account in Firebase. The app can read it but cannot change it.
 
